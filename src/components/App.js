@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Question from "./Question";
 import quiz from "../data/quiz";
 
@@ -18,6 +18,16 @@ function App() {
       setScore((score) => score + 1);
     }
   }
+
+
+  // useEffect(() => {
+  //   setTimeout(() => console.log("Hello, World!"), 3000);
+  //   // return () => clearTimeout(timer);
+  // }, []);
+
+
+
+
 
   return (
     <main>
